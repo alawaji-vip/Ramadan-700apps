@@ -11,13 +11,13 @@ function draw() {
     var imageObj = new Image();
   imageObj.src = "pic_the_scream.jpg"; 
    ctx.drawImage(imageObj, 0, 0);
-   ctx.font = "28px Tajawal";
-    ctx.fillStyle = "#454448";
+   ctx.font = "32px Tajawal";
+    ctx.fillStyle = "#FFFFFF";
     var name = document.getElementById('fname').value
    var  length= name.length;
      
      name = name.padStart(15);
-     ctx.fillText(name, 659, 818); 
+     ctx.fillText(name, 750, 680); 
      downloadImage();
 };
 
